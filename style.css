@@ -30,7 +30,6 @@ main .slide{
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size:cover;
-    padding: 50px;
 }
 main .slide h3{
                 color: white;
@@ -52,6 +51,6 @@ main .slide a{
 			 color: white;
 			 background: red;
 			 padding: 8px 15px;
-			 
-
+			 text-decoration: none;
+			 border-radios: 8px;
 }
