@@ -56,3 +56,16 @@ main .catalogo .destaque-vertodos{
 	justify-content: space-between;
 }
 	
+main .catalogo ul li{
+		width: 200px;
+		height: 350px;
+		border: 1px solid gray;
+		overflow: hidden;
+		border-radius: 10px;
+
+}
+main .catalogo ul li img{
+		width: 100%;
+
+}
+
