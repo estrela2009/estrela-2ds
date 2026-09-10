@@ -21,6 +21,11 @@ header a{
 	color: white;
 	text-decoration: none;
 }
+header a:hover{
+            color: green;  
+            background: red;
+}
+
 main .slide{
 	background: url("imagens/banner-principal.png");
 	width: 100%;
@@ -111,14 +116,14 @@ main .catalogo ul{
             width: 100%;
             display: flex;
             padding: 15px;
+            color: white;
 }
 footer div{
             width: 33%;           
             height: 350px;
             border: 1px solid #fff;
 }
-footer .sobre{
-              color: white;                  
+               
                                 
 }   
 footer h2{
@@ -130,5 +135,24 @@ footer p{
          line-height: 26px;  
          margin: 20px;
 }
+footer .menu ul{
+                display: flex;
+                flex-direction: column;
+}
+footer .menu ul li{
+                list-style: none;
+                margin: 5px 0 5px 20px;
+}
+footer .menu ul li a{
+                color: white;                    
+                text-decoration: none;            
+}
+footer .menu ul li a:hover{
+                color: red;                        
+                 background: white;
+                      
+}
+
+
 
 
