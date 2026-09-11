@@ -55,6 +55,10 @@ main .slide a{
 	text-decoration: none;
 	border-radius: 8px;
 }
+main .slide a:hover{
+       padding: 5px 5 5 5px;         
+
+}
 main .slide .descricao-slide{
 	margin-left: 50px;
 }
@@ -148,8 +152,30 @@ footer .menu ul li a{
 footer .menu ul li a:hover{
                 color: red;                        
                  background: white;
-                      
 }
+footer .categoria ul{
+                display: flex;
+                flex-direction: column;
+}
+footer .categoria ul li{
+                list-style: none;
+                margin: 5px 0 5px 20px;
+}
+footer .categoria ul li a{
+                color: white;                    
+                text-decoration: none;            
+}
+footer .categoria ul li a:hover{
+                color: red;                        
+                 background: white;
+}
+
+
+
+
+
+
+
 
 
 
