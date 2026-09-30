@@ -21,10 +21,13 @@ header a{
 	color: white;
 	text-decoration: none;
 }
-header a:hover{
-            color: green;  
-            background: red;
+   header a:hover{
+            color: black;
+		background: green;
 }
+header a:visited{
+			color:red;
+	}	
 
 main .slide{
 	background: url("imagens/banner-principal.png");
@@ -227,4 +230,8 @@ footer > p{
 	font-size: 22px
 	border-radius: 7px;
 	
+}
+.disponivel ul li:hover{
+            color: green;
+		background: black;
 }
