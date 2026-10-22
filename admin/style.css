@@ -40,22 +40,27 @@ button:hover{
 
 }
 ul{
-        width: 100%;
         height: 60px;
         display: flex;
         justify-content: center;
         align-items: center; 
         background: #ddd;
 }
-ul li{
+ ul li{
         list-style: none;
-        margin: 5px;
 }
 ul li a{
         text-decoration: none;
         color: #333;
         font-size: 19px;
-
-
-
+	padding: 19px;
+}
+ ul li a:hover{
+	background:#ccc;
+}
+#categoria h2{
+	text-align: center;
+}
+#categoria form{
+	text-align: center;
 }
