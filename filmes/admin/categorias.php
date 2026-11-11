@@ -27,7 +27,8 @@
 		 }else {
 		 	echo "Deu ruim";
 		 }
-
+		 $sql = "SELECT * FROM categorias";
+		 $resultado = $conn->query($sql);
 
 
 	}
