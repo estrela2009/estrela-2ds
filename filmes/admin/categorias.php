@@ -20,16 +20,20 @@
 	if(isset($_GET['salvar'])){
 		$nomeCategoria = $_GET['categoria'];
 
-		 $sql = "INSERT INTO categorias (nome) values ('$nomeCategoria')";
+		 $sql = "INSERT INTO categoria (nome) values ('$nomeCategoria')";
 
 		 if($conn->query($sql)){
-		 	echo "Gravou com sucessooooooooooo!";
+		 	echo "";
 		 }else {
 		 	echo "Deu ruim";
 		 }
-		 $sql = "SELECT * FROM categorias";
+		 $sql = "SELECT * FROM categoria";
 		 $resultado = $conn->query($sql);
 
+		while ($obj = $resultado->fetch_assoc()) {
+			echo $obj['id']."-";
+			echo $obj['nome']."<BR>";
+		}
 
 	}
 
