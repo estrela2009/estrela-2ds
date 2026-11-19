@@ -25,7 +25,10 @@
 		?>
 
 
-	<input type="text" name="categoria" placeholder="Nome Categoria..." value="<?php echo $obj['nome'] ?>">
+	<input type="text" name="categoria" placeholder="Nome Categoria..."
+	 value="<?php echo isset($obj['nome'])? $obj['nome'] : "" ?>">
+	<input type="hidden" name="editar" value="<?php echo 
+	isset($_GET['editar'])? $_GET['editar']: ""; ?>">
 		<button name="salvar">Salvar</button>
 	</form>
 </main>
